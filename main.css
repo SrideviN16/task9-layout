@@ -1,0 +1,455 @@
+*
+  { box-sizing:border-box;
+    margin:0px;
+	padding:0px;
+
+	
+  }  
+.container
+{
+    width:1170px;
+	margin:0 auto;
+	padding:0 15px;
+	
+  }
+  /* info section */
+ .info
+ {
+	 background-color:black;
+ }
+ .info-cont
+ {
+	 display:flex;
+	 justify-content:space-between;
+	 
+ }
+ .contact
+ {
+	 width:40%;
+	 background-color:yellow;
+	 height:40px;
+ }
+ .language
+ {
+	 width:20%;
+	 background-color:yellow;
+	 height:40px;
+ }
+ /* nav section */
+ .navsection
+ {
+	 background-color:#288ba8;
+     padding:20px 0;
+ }
+ .nav-cont
+ { 
+	 display:flex;
+	 align-items: center;
+     justify-content:space-between;
+	  align-items:center;
+	
+ }
+ .logo
+ {
+	 width:20%;
+	 background-color:#ffabb6;
+	 height:50px;
+	
+	 
+ }
+ .nav-options
+ {
+	 width:50%;
+	 background-color:#ffabb6;
+	 height:50px;
+
+	 
+ }
+ .nav-button
+
+ {
+	 width:20%;
+	 background-color:#ffabb6;
+	 height:50px;
+
+ }
+ /* banner section */
+ .bannersection
+ {
+	 background-color:black;
+	 padding:80px 0;
+	
+ }
+ .banner-cont{
+	 display:flex;
+	 justify-content:space-between;
+	 align-items:center;
+ }
+ .banner-data
+ {
+	 height:500px;
+	 width:60%;
+	 background-color:yellow;
+ }
+ .banner-button
+ {   
+
+	 height:160px;
+	 background-color:yellow;
+	 width:30%;
+	 
+ }
+ /* about section */
+ .aboutsection
+ {
+	 background-color:#288ba8;
+	 padding:30px 0;
+	
+ }
+ .about-cont{
+	 display:flex;
+	 justify-content:space-between;
+	 align-items:center;
+ }
+ .about-data
+ {
+	 height:400px;
+	 width:40%;
+	 background-color:#ffabb6;
+ }
+ .about-img
+ {   
+
+	 height:400px;
+	 background-color:#ffabb6;
+	 width:40%;
+	 
+ }
+/* why choose section */
+.whychoosesection
+{
+	background-color:black;
+	padding:30px 0;
+}
+.whychoose-cont
+{
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:space-between;
+	align-items:center;
+}
+.whychoosedata1
+{
+	width:100%;
+	background-color:yellow;
+	height:80px;
+	margin-bottom:20px;
+}
+ .choose1
+ {
+	 width:30%;
+	 background-color:yellow;
+	 height:300px;
+ }
+ .choose2
+ {
+	 width:30%;
+	 background-color:yellow;
+	 height:300px;
+ }
+ .choose3
+ {
+	 width:30%;
+	 background-color:yellow;
+	 height:300px;
+ }
+ /* menu section */
+ .menusection
+ {
+	 background-color:#288ba8;
+	 padding:30px 0;
+ }
+ .menu-cont
+ {
+	 display:flex;
+	 flex-wrap:wrap;
+	 justify-content:space-between;
+ }
+ .menutitle
+ {
+	 width:100%;
+	 height:50px;
+	 background-color:#ffabb6;
+	 margin-bottom:20px;
+ }
+ .subtitle
+ {
+	 width:100%;
+	 height:30px;
+	 background-color:#ffabb6;
+	 margin-bottom:20px;
+ }
+.menudata 
+{
+	width:100%;
+	height:500px;
+	background-color:#ffabb6;
+}
+ /* special section */
+ .specialsection
+ {
+	 background-color:black;
+	 padding:20px 0;
+ }
+ .specialdata
+ {
+	 display:flex;
+	 flex-wrap:wrap;
+	 justify-content:space-between;
+ }
+ .specialtitle
+ {
+	 height:50px;
+	 width:100%;
+	 background-color:yellow;
+	 margin-bottom:20px;
+ }
+ .special-content1
+ {
+	 height:300px;
+	 width:30%;
+	 background-color:yellow;
+ }
+ .special-content2
+ {
+	 height:300px;
+	 width:40%;
+	 background-color:yellow;
+ }
+ .special-img
+ {
+	 height:300px;
+	 width:20%;
+	 background-color:yellow;
+ }
+ /* event section */
+ .eventsection
+ {
+	 background-color:#288ba8;
+	 padding:20px;
+ }
+ .eventdata
+ {
+	 display:flex;
+	 flex-wrap:wrap;
+	 justify-content:space-between;
+ }
+ .eventtitle
+ {
+	 width:100%;
+	 height:50px;
+	 background-color:#ffabb6;
+	 margin-bottom:20px;
+ }
+ .eventcont
+ {
+	 height:400px;
+	 width:40%;
+	 background-color:#ffabb6;
+ }
+ .eventimg
+ {
+	 height:400px;
+	 width:40%;
+	 background-color:#ffabb6;
+ }
+ /* reservation section */
+ .reservationsection
+ {
+	 background-color:black;
+	 padding:20px 0;
+ }
+ .reservationdata
+ {
+	 display:flex;
+	 flex-wrap:wrap;
+	 justify-content:space-between;
+ }
+ .reservationtitle
+ {
+	 height:80px;
+	 width:100%;
+	 background-color:yellow;
+	 margin-bottom:20px;
+ }
+ .reservationcontent
+ {
+	 height:500px;
+	 width:100%;
+	 background-color:yellow;
+ }
+ /* testimonal section */
+ .testimonialsection
+ {
+	 background-color:#288ba8;
+	 padding:20px;
+ }
+ .testimonialdata
+ {
+	 display:flex;
+	 flex-wrap:wrap;
+	 justify-content:space-between;
+ }
+ .testimonialttitle
+ {
+	 width:100%;
+	 height:50px;
+	 background-color:#ffabb6;
+	 margin-bottom:20px;
+ }
+ .testimonialcont1,.testimonialcont2,.testimonialcont3
+ {
+	 height:300px;
+	 width:30%;
+	 background-color:#ffabb6;
+ }
+ .gallerysection
+ {
+	 background-color:black;
+	 padding:20px 0;
+ }
+ .gallerytitle
+ {
+	 width:80%;
+	 height:40px;
+	 margin-bottom:20px;
+	 background-color:yellow;
+	
+ }
+ .gallerydata
+ {
+	 display:flex;
+	justify-content:center;
+	 flex-wrap:wrap;
+ }
+ .gallery1,.gallery2,.gallery3,.gallery4,.gallery5,.gallery6,.gallery7,.gallery8
+ {
+	 width:24%;
+	 border:solid 2px black;
+	 background-color:yellow;
+	 height:150px;
+ }
+	 
+ /* cheifsection */
+ .cheifsection
+ {
+	 background-color:#288ba8;
+	 padding:20px;
+ }
+ .cheifdata
+ {
+	 display:flex;
+	 flex-wrap:wrap;
+	 justify-content:space-between;
+ }
+ .chieftitle
+ {
+	 width:100%;
+	 height:50px;
+	 background-color:#ffabb6;
+	 margin-bottom:20px;
+ }
+ .chiefimg1,.cheifimg2,.chiefimg3
+ {
+	 height:300px;
+	 width:30%;
+	 background-color:#ffabb6;
+ }
+ /* contact section */
+ .conatctsection
+ {
+	 background-color:black;
+	 padding:20px 0;
+ }
+ .conatctdata
+ {
+	 display:flex;
+	 justify-content:space-between;
+ }
+ .contacttitle
+ {
+	 background-color:yellow;
+	 width:100%;
+	 height:40px;
+	 margin-bottom:20px;
+ }
+ .map
+ {
+	 width:100%;
+	 height:300px;
+	 background-color:yellow;
+	 margin-bottom:20px;
+ }
+ .datas
+ {
+	 display:flex;
+	 justify-content:space-between;
+ }
+ .data
+ {
+	 width:30%;
+	 height:300px;
+	 background-color:yellow;
+ }
+ .form
+ {
+	 width:50%;
+	 height:300px;
+	 background-color:yellow;
+ }
+.footersection
+{
+background-color:#ffabb6;
+padding:20px 0;
+}
+.footerdata
+{
+display:flex;
+justify-content:space-between;
+}
+.one{
+width:20%;
+height:300px;
+background-color:black;
+}	
+.two{
+width:20%;
+height:300px;
+background-color:black;
+}
+.three{
+width:20%;
+height:300px;
+background-color:black;
+}
+.four{
+width:30%;
+height:300px;
+background-color:black;
+}
+.copyrightsection{
+	background-color:black;
+	padding:80px 0;
+}
+.copydata
+{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+.copy-cnt
+{
+	height:100px;
+	background-color:yellow;
+	width:30%;
+}
